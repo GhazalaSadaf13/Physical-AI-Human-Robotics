@@ -1,0 +1,53 @@
+
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #6a48d7; /* A modern purple */
+  --ifm-color-primary-dark: #5b3cc2;
+  --ifm-color-primary-darker: #5438b8;
+  --ifm-color-primary-darkest: #452da0;
+  --ifm-color-primary-light: #7954e0;
+  --ifm-color-primary-lighter: #815ee5;
+  --ifm-color-primary-lightest: #9575f0;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Custom colors for content */
+  --ifm-font-color-base: #333333;
+  --ifm-background-color: #ffffff;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #9b84e7; /* A lighter purple for dark mode */
+  --ifm-color-primary-dark: #8a70e2;
+  --ifm-color-primary-darker: #8268de;
+  --ifm-color-primary-darkest: #6a48d7;
+  --ifm-color-primary-light: #ac9ef0;
+  --ifm-color-primary-lighter: #b5a7f2;
+  --ifm-color-primary-lightest: #d1c9f7;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* Custom colors for content in dark mode */
+  --ifm-font-color-base: #e0e0e0;
+  --ifm-background-color: #121212;
+}
+
+/* Additional styles for chapter content to improve readability */
+.markdown {
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
